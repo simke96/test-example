@@ -28,4 +28,8 @@ git checkout filename - restore git on previous commit
 
 git add filename_1 filename _2
 
-git .     - Pomocu 
+git add.     - Pomocu njega ubacujemo sve fajlove odjednom
+
+.gitignore   - Tu stavljamo sve datoteke koje ne zelimo da commitujemo npr: log.txt. Ako je u nekom folderu onda samo pisemo /log.txt
+
+git branch naziv    -Pravimo novi branch koji ce da bude drugaciji u odnosu na master branch. Naziv zadajemo sami tj kako ce da se zove branch
