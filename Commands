@@ -1,0 +1,31 @@
+git init - pravljenje git-a
+
+Git se deli na 3 dela. Prvi je koji radimo tj editujemo, drugi deo se odnosi na sacuvani deo koji je izdvojen a 3 deo je onaj koji je na internetu.
+
+
+    git init creates a new Git repository
+   
+    git status inspects the contents of the working directory and staging area
+
+    git add adds files from the working directory to the staging area
+
+    git diff shows the difference between the working directory and the staging area
+
+    git commit permanently stores file changes from the staging area in the repository
+
+    git commit -m "Ovde stoji poruka" --- Preporucuje se ovo za koriscenje jer mora i poruku neku da ostavimo
+
+    git log shows a list of all previous commits
+
+
+
+2 DEO
+
+
+git show HEAD -   The output of this command will display everything the git log command displays for the HEAD commit, plus all the file changes that were committed. 
+
+git checkout filename - restore git on previous commit
+
+git add filename_1 filename _2
+
+git .     - Pomocu 
